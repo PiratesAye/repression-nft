@@ -45,7 +45,7 @@ async function main() {
 
         fs.writeFileSync("./data/pictures.json", JSON.stringify(pictures));
         
-    }, 32)
+    }, 8)
     .then(() => {
         console.log("finished uploading files")
     });    
